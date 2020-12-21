@@ -6,14 +6,16 @@
 - **ADDS** (Automatic Deepfake Detection System) - 딥페이크 자동 탐지 시스템
 
     영상 및 이미지의 **딥페이크 여부를 탐지하는 기술**을 토대로 사이버 상의 개인 얼굴 데이터 보호를 위한 서비스
+    
+- **모델 성능**
 
-**[모델 test 정확도]**
+    [모델 test 정확도]
 
-![image](https://user-images.githubusercontent.com/49579003/102771009-71669300-43c8-11eb-867e-c85ca9c31d54.png)
+    ![image](https://user-images.githubusercontent.com/49579003/102771009-71669300-43c8-11eb-867e-c85ca9c31d54.png)
 
-**[Adversarial Attack 성공률]**
+    [Adversarial Attack 성공률]
 
-![image](https://user-images.githubusercontent.com/49579003/102769998-c5707800-43c6-11eb-91a5-0abeb4248053.png)
+    ![image](https://user-images.githubusercontent.com/49579003/102769998-c5707800-43c6-11eb-91a5-0abeb4248053.png)
 
 - **DEEP't**
 
