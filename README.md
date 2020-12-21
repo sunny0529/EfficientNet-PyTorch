@@ -94,5 +94,5 @@
 ![딥페이크판별](https://user-images.githubusercontent.com/49579003/102734482-40b03a80-4383-11eb-8b98-afb58e955935.png)
     **[딥페이크 동영상/이미지 판별 화면]**
 
-![image](https://user-images.githubusercontent.com/49579003/102773944-64986e00-43cd-11eb-91ca-82b5466e6d4f.png)
+![image](https://user-images.githubusercontent.com/49579003/102774069-9c071a80-43cd-11eb-81b4-71c64972afb8.png)
     **[결과 화면]**
