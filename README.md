@@ -11,10 +11,12 @@
 
 
 ![image](https://user-images.githubusercontent.com/49579003/102769971-bd183d00-43c6-11eb-90d6-54d550107615.png)
-    **[모델 test 정확도]**
+
+**[모델 test 정확도]**
 
 ![image](https://user-images.githubusercontent.com/49579003/102769998-c5707800-43c6-11eb-91a5-0abeb4248053.png)
-    **[Adversarial Attack 성공률]**
+
+**[Adversarial Attack 성공률]**
 
 - **DEEP't**
 
