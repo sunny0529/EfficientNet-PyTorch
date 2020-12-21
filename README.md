@@ -7,9 +7,9 @@
 
     영상 및 이미지의 **딥페이크 여부를 탐지하는 기술**을 토대로 사이버 상의 개인 얼굴 데이터 보호를 위한 서비스
    
-- **요약**
+- **기술 요약**
 
-    기본적인 딥페이크 디텍션(Open CV를 활용한 얼굴 탐지/Xception Net을 활용한 딥페이크 판별)에 Adversarial Example Training(FGSM)으로 강화된 딥페이크 디텍션을 제공한다. 학습에 사용된 데이터는 ‘FaceForensic’,‘Kaggle’,’DeeperForensic’으로 총 400GB 상당의 3가지 데이터셋을 활용했다.
+    기본적인 딥페이크 디텍션(Open CV를 활용한 얼굴 탐지/Xception Net을 활용한 딥페이크 판별)에 Adversarial Example Training(FGSM)으로 강화된 딥페이크 디텍션을 제공한다. 학습에 사용된 데이터는 ‘FaceForensic’,‘Kaggle’,’DeeperForensic’으로 총 400GB 상당의 3가지 데이터셋을 활용했다. 해당 딥페이크 디텍션 모듈을 이용할 수 있는 웹을 제공한다.
     
 - **모델 성능**
 
@@ -35,7 +35,7 @@
     django-rest-framework 3.12.2
 
 
-- **django - s3 관련**
+- **django-S3 관련**
 
     boto3 1.16.40
 
@@ -64,7 +64,7 @@
  
     pandas 1.1.5
 
-## 사용방법
+## 실행 방법
 **1. 가상환경 만들기**
 
     $python -m venv {가상환경 이름}
@@ -93,3 +93,6 @@
 
 ![딥페이크판별](https://user-images.githubusercontent.com/49579003/102734482-40b03a80-4383-11eb-8b98-afb58e955935.png)
     **[딥페이크 동영상/이미지 판별 화면]**
+
+![image](https://user-images.githubusercontent.com/49579003/102773944-64986e00-43cd-11eb-91ca-82b5466e6d4f.png)
+    **[결과 화면]**
