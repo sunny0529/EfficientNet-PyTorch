@@ -1,11 +1,11 @@
 # EfficientNet-PyTorch
 
 # Deept-ADDS
-- ADDS (Automatic Deepfake Detection System) - 딥페이크 자동 탐지 시스템
+- **ADDS** (Automatic Deepfake Detection System) - 딥페이크 자동 탐지 시스템
 
     영상 및 이미지의 딥페이크 여부를 탐지하는 기술을 토대로 사이버 상의 개인 얼굴 데이터 보호를 위한 서비스
 
-- Deept - 로고, 포부 등
+- **Deept** - 로고, 포부 등
 
     사이버보안 전공 5명의 학생이 팀을 결성
 
@@ -19,14 +19,14 @@
     django-rest-framework 3.12.2
 
 
-- django - s3 관련
+- **django - s3 관련**
 
     boto3 1.16.40
 
     boto 2.49.0
 
 
-- 딥페이크 판별 모듈 관련
+- **딥페이크 판별 모듈 관련**
 
     future 0.18.2
 
@@ -49,21 +49,21 @@
     pandas 1.1.5
 
 ## 사용방법
-1. 가상환경 만들기
+**1. 가상환경 만들기**
 
     $python -m venv {가상환경 이름}
 
-2. 가상환경 실행
+**2. 가상환경 실행**
 
     $source {가상환경 이름}/bin/activate
 
-3. 모듈 설치
+**3. 모듈 설치**
 
-4. Migrate 하기
+**4. Migrate 하기**
 
     $python manage.py migrate
 
-5. django 실행
+**5. django 실행**
 
     $python manage.py runserver
 
