@@ -86,11 +86,11 @@
     AWS_STORAGE_BUCKET_NAME = 'your bucket name' # 버킷 이름 입력
 
 
-**4. Migrate 하기**
+**5. Migrate 하기**
 
     $python manage.py migrate
 
-**5. django 실행**
+**6. django 실행**
 
     $python manage.py runserver
 
