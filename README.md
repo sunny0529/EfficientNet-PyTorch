@@ -75,6 +75,17 @@
 
 **3. 모듈 설치**
 
+**4. 키 설정**
+
+   setting.py
+   
+    SECRET_KEY = 'your secret key'
+    AWS_ACCESS_KEY_ID = 'your key ID' # csv 파일의 Access key ID 입력
+    AWS_SECRET_ACCESS_KEY = 'your key' # csv 파일의 Secret access key 입력
+    AWS_REGION = 'your region' # 지역 입력
+    AWS_STORAGE_BUCKET_NAME = 'your bucket name' # 버킷 이름 입력
+
+
 **4. Migrate 하기**
 
     $python manage.py migrate
@@ -125,5 +136,5 @@
 
 ## 웹 남은 이슈
 - 딥페이크 탐지 결과를 기다리는 동안, 사용자가 업로드한 동영상을 보여주기
-- S3에 업로드한 이미지/동영상에 다시 접근시 권한 문제
+- S3에 업로드한 이미지/동영상 접근시 발생하는 권한 문제 해결
 - 보안
