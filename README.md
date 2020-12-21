@@ -10,8 +10,33 @@
     사이버보안 전공 5명의 학생이 팀을 결성
 
 ## 설치방법
+웹 관련
+django 3.0.7
+pip install django
+
+django-storages 1.11
+pip install django-storages
+
+django-rest-framework 3.12.2
+pip install djangorestframework
+
+boto3 1.16.40
+pip install boto3
+
+boto 2.49.0
+pip install boto
+
+딥페이크 모듈 관련
 
 ## 사용방법
+가상환경 만들기
+python -m venv {가상환경 이름}
+
+가상환경 실행
+source {가상환경 이름}/bin/activate
+
+Migrate 하기
+python manage.py migrate
 
 
 ## 실행화면
