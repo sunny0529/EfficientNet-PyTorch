@@ -9,18 +9,63 @@
 
     사이버보안 전공 5명의 학생이 팀을 결성
 
-## 설치방법
+## 모듈
+- django 관련
+
+    django 3.0.7
+
+    django-storages 1.11
+
+    django-rest-framework 3.12.2
+
+
+- django - s3 관련
+
+    boto3 1.16.40
+
+    boto 2.49.0
+
+
+- 딥페이크 판별 모듈 관련
+
+    future 0.18.2
+
+    numpy 1.19.4 
+
+    pillow 8.0.1 
+
+    torch 1.5.1 
+
+    torchvision 0.6.1
+
+    opencv-python 4.4.0.46
+
+    face-recognition 1.3.0
+    
+    tqdm 4.54.1
+
+    matplotlib 3.3.3
+ 
+    pandas 1.1.5
 
 ## 사용방법
-가상환경 만들기
-python -m venv {가상환경 이름}
+1. 가상환경 만들기
 
-가상환경 실행
-source {가상환경 이름}/bin/activate
+    $python -m venv {가상환경 이름}
 
-Migrate 하기
-python manage.py migrate
+2. 가상환경 실행
 
+    $source {가상환경 이름}/bin/activate
+
+3. 모듈 설치
+
+4. Migrate 하기
+
+    $python manage.py migrate
+
+5. django 실행
+
+    $python manage.py runserver
 
 ## 실행화면
 
