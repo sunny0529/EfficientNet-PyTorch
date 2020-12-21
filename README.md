@@ -95,4 +95,5 @@
     **[딥페이크 동영상/이미지 판별 화면]**
 
 ![image](https://user-images.githubusercontent.com/49579003/102774069-9c071a80-43cd-11eb-81b4-71c64972afb8.png)
-    **[결과 화면]**
+
+**[결과 화면]**
