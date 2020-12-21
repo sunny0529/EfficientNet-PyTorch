@@ -3,15 +3,13 @@
 # Deept-ADDS
 ![image](https://user-images.githubusercontent.com/49579003/102768259-382c2400-43c4-11eb-8cf3-a2291fccc405.png)
 
-- **DEEP't**
-
-    사이버보안 전공자 5명이 팀을 결성
-    
-    딥페이크의 등장과 악의적인 사용에 맞서, 더 나은 기술 개발하고자 한다.
-
 - **ADDS** (Automatic Deepfake Detection System) - 딥페이크 자동 탐지 시스템
 
     영상 및 이미지의 **딥페이크 여부를 탐지하는 기술**을 토대로 사이버 상의 개인 얼굴 데이터 보호를 위한 서비스
+   
+- **요약**
+
+    기본적인 딥페이크 디텍션(Open CV를 활용한 얼굴 탐지/Xception Net을 활용한 딥페이크 판별)에 Adversarial Example Training(FGSM)으로 강화된 딥페이크 디텍션을 제공한다. 학습에 사용된 데이터는 ‘FaceForensic’,‘Kaggle’,’DeeperForensic’으로 총 400GB 상당의 3가지 데이터셋을 활용했다.
     
 - **모델 성능**
 
@@ -23,7 +21,10 @@
 
     ![image](https://user-images.githubusercontent.com/49579003/102769998-c5707800-43c6-11eb-91a5-0abeb4248053.png)
 
+- **DEEP't**
 
+    사이버보안 전공자 5명이 모여 팀을 결성했다. 딥페이크의 등장과 악의적인 사용에 맞서, 더 나은 기술 개발하고자 한다.
+    
 ## 모듈
 - **django 관련**
 
